@@ -1,0 +1,44 @@
+package chap5;
+
+public class Student {
+	int studentNo;
+	String studentName;
+	int grade;
+	// char gender;
+	private char gender; // private 면 이 클래스 내부에서만 조회 가능
+	
+	public int getStudentNo() {
+		return studentNo;
+	}
+
+	public void setStudentNo(int studentNo) {
+		this.studentNo = studentNo;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+	public int getGrade() {
+		return grade;
+	}
+
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+
+	public void setGender(char gender) {
+		this.gender = gender;
+	}
+
+	public char getGender() {
+		char gender;
+		return this.gender;
+	}
+	
+	// 맴버 변수나 매서드들의 Default : Public
+}

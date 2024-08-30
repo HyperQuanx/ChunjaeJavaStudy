@@ -1,0 +1,25 @@
+package chap4;
+
+public class gugudanss {
+
+    public static void main(String[] args) {
+        // 두 개의 for문을 사용하여 구구단 출력
+        for (int j = 0; j <= 9; j++) {
+            for (int i = 2; i <= 9; i++) {
+                if (j == 0) {
+                    // 첫 번째 줄: 단 제목 출력 (2단부터 9단까지)
+                    System.out.print(String.format("%9s", i + "단"));
+                } else {
+                    // 그 외 줄: 구구단 출력
+                    if (i == 6) {
+                        System.out.println(); // 5단 이후 줄바꿈
+                    }
+                    System.out.print(String.format("%10s", i + "X" + j + "= " + i * j));
+                }
+            }
+            if (j > 0 && j < 9) {
+                System.out.println();
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+package test;
+
+public class stringArrayTest {
+	public static void main(String[] args) {
+		char[] alphabets = new char[26];
+		char ch = 'A';
+		
+		for(int i =)
+		
+	}
+}

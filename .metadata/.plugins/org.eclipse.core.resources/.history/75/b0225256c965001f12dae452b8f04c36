@@ -1,0 +1,15 @@
+package chap5;
+
+public class exClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Student st = new Student();
+		Student st2 = new Student();
+		Student st3 = st;
+		String str = "abcd";
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package chap5;
+
+public class Student {
+	int studentNo;
+	String studentName;
+	int grade;
+	String gender;
+	
+}

@@ -1,0 +1,72 @@
+package chap5;
+// co.kr.chunjae.www
+// co.kr.chunjae.api
+// co.kr.chunjae.member
+// 쌤이 쓰시는 클래스명
+
+
+public class Student {
+	// 기본 생성자는 사용자가 정의하지 않았을 경우 시스템이 객체 생성시에 자동 생성
+	// 기본 생성자 : 클래스명() {}
+	// 함수 정의
+	//	(접근제어자)   void/리턴할 자료의 형태   함수명() { return 자료형의 값 }
+	//	 ↑ 생략 가능    ↑그냥 선언
+	// 함수 사용법
+	//		리턴타입이 없을 때 : 함수명();
+	//		리턴타입이 있을 때 : 자료형 변수명 = 함수명();
+	
+	student2 xxx() {
+		s s = new S();
+		return s;
+	}
+	
+	
+	int studentNo;
+	String studentName;
+	int grade;
+	// char gender;
+	private char gender; // private 면 이 클래스 내부에서만 조회 가능
+	
+	public int getStudentNo() {
+		return studentNo;
+	}
+
+	public void setStudentNo(int studentNo) {
+		this.studentNo = studentNo;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+	public int getGrade() {
+		return grade;
+	}
+
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+
+	public void setGender(char gender) {
+		this.gender = gender;
+	}
+
+	public char getGender() {
+		// char gender; 그러므로 이걸 가져오지 못함
+		return this.gender; // this 를 사용하게 되면 클래스인 Student 에서 gender 를 찾게 된다.
+	}
+	
+	public String getStudentInfo() {
+		return this.studentName + ":" + this.gender + ":" + this.grade;
+	}
+	
+	public String[] getStudentInfo2() {
+		return null;
+	}
+	
+// 맴버 변수나 매서드들의 Default : Public
+}

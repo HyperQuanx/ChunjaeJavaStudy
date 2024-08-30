@@ -1,0 +1,42 @@
+package chap4;
+
+public class asdasdf {
+
+	public static void main(String[] args) {
+		/*
+		 * char [] a = new char[3]; a[0] = '1'; a[1] = '2'; a[2] = '3';
+		 * 
+		 * 
+		 * char [] b = {'1',2,'3'}; System.out.println(a); System.out.println(b);
+		 */
+//		
+//		int a = 3;
+//		int b = a;
+//		int c = b;
+//		
+//		System.out.println(a + ":" + b + ":"+ c);
+//		
+//		a = 4;
+//		
+//		System.out.println(a + ":" + b + ":"+ c);
+//		
+//		int [] x = {1, 2, 3, 4};
+//		int [] z = x;
+//		
+//		System.out.println(x[0]);
+//		System.out.println(z[0]);
+//		
+//		x[0] = 10;
+//		
+//		System.out.println(x[0]);
+//		System.out.println(z[0]);
+//		
+		int num1 = 5;
+		int result = ~num1;
+		System.out.println(result);
+	}
+
+}
+
+
+// 선언만 하면 메모리 사용 X   ex) int a = 0;  <-- 메모리 사용하지 않음

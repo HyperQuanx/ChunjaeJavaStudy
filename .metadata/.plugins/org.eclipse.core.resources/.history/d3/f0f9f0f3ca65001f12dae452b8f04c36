@@ -1,0 +1,15 @@
+package chap5;
+
+public class Student {
+	int studentNo;
+	String studentName;
+	int grade;
+	// char gender;
+	private char gender; // private 면 이 클래스 내부에서만 조회 가능
+	
+	public char getGender() {
+		return this.gender;
+	}
+	
+	// 맴버 변수나 매서드들의 Default : Public
+}

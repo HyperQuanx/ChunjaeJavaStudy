@@ -1,0 +1,21 @@
+package chap4;
+
+public class test01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 1~100 사이의 3의 배수의 합
+		// 2. 1~100 사이의 4의 배수의 합
+		
+		int num = 1;
+		int sum = 0;
+		while(num <= 100) {
+			if (num % 3 == 0) {
+				sum += num;
+			}
+			num++;
+		}
+		System.out.println(sum);
+	}
+
+}

@@ -1,0 +1,9 @@
+package chap5;
+
+public class Student {
+	int studentNo;
+	String studentName;
+	int grade;
+	char gender;
+	// 맴버 변수나 매서드들의 Default : Public
+}

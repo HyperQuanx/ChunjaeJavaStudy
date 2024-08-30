@@ -1,0 +1,11 @@
+package test2;
+
+public class Student {
+
+	public static void main(String[] args) {
+		int studentNo;
+		String studentName;
+		int grade;
+		char gender;
+	}
+}

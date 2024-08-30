@@ -1,0 +1,9 @@
+package chap5;
+
+public class InstencePractice {
+	public static void main(String[] args) {
+		Student student1 = new Student();
+		student1.studentName = "홍길동";
+		System.out.println(student1.getStudentName());
+	}
+}
