@@ -41,6 +41,12 @@ public class Student {
 	private char gender; // private 면 이 클래스 내부에서만 조회 가능
 	String rider;
 	
+	public int getTestNo() {
+		return testNo;
+	}
+	
+	static private int testNo;
+	
 	
 	// 값을 초기화 하는 용도로 쓰임
 //	Student() {
@@ -51,6 +57,7 @@ public class Student {
 	// 기본 생성자
 	Student() {}
 	
+	// static field와 static method는 한번에 모아서 선언하는게 메모리 누수를 방지함
 	
 	
 	// 사용자 정의 생성자
@@ -115,6 +122,6 @@ public class Student {
 	}
 
 	
-	
+
 // 맴버 변수나 매서드들의 Default : Public
 }
