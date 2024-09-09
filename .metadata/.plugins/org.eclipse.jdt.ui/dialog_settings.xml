@@ -27,10 +27,10 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="753"/>
-		<item key="DIALOG_Y_ORIGIN" value="198"/>
+		<item key="DIALOG_X_ORIGIN" value="734"/>
+		<item key="DIALOG_Y_ORIGIN" value="185"/>
 		<item key="DIALOG_WIDTH" value="543"/>
-		<item key="DIALOG_HEIGHT" value="638"/>
+		<item key="DIALOG_HEIGHT" value="664"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="NewPackageCreationWizard.dialogBounds">
@@ -113,5 +113,8 @@
 		<item key="DIALOG_WIDTH" value="548"/>
 		<item key="DIALOG_HEIGHT" value="522"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="2"/>
 	</section>
 </section>
