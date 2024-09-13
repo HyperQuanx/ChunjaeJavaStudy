@@ -6,11 +6,23 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="closed"/>
+		<item key="selection" value="127"/>
 		<list key="findhistory">
+			<item value="127"/>
+			<item value="128"/>
+			<item value="-128"/>
+			<item value="removeAll"/>
+			<item value="; ;"/>
+			<item value="-&gt;"/>
+			<item value="add"/>
+			<item value=";  ;"/>
+			<item value=";;"/>
+			<item value="for(; ;)"/>
+			<item value="for"/>
+			<item value="for( ; ; )"/>
+			<item value="for(;;)"/>
+			<item value="fow(;;)"/>
 			<item value="closed"/>
-			<item value="close"/>
-			<item value="input"/>
 		</list>
 		<list key="replacehistory">
 		</list>

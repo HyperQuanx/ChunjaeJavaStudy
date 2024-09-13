@@ -6,6 +6,7 @@
 	<item key="TypeHierarchyViewPart.qualifiednames" value="false"/>
 	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
 	<item key="TypeHierarchyViewPart.orientation" value="3"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\java7\java"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -27,7 +28,7 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="734"/>
+		<item key="DIALOG_X_ORIGIN" value="424"/>
 		<item key="DIALOG_Y_ORIGIN" value="185"/>
 		<item key="DIALOG_WIDTH" value="543"/>
 		<item key="DIALOG_HEIGHT" value="664"/>

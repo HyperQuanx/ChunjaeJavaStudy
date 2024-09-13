@@ -60,9 +60,30 @@ public class Main {
 //		gd2.set(new Pencil());
 //		Pencil pencil = gd2.get();
 		
-		Goods2<Apple> goods = new Goods2<>();
+//		Goods2<Apple> goods = new Goods2<>();
 //		Goods2<Pencil> goods2 = new Goods2<Pencil>(); // 안됨.
 		
+		
+		// 1. 부모 제네릭 클래스
+//		Parent<String> p = new Parent<String>();
+//		p.setT("부모 제네릭 클래스");
+//		System.out.println(p.getT());
+		
+		// 2. 자식1 제네릭 클래스
+//		Child1<String> c1 = new Child1<String>();
+//		c1.setT("자식1 제네릭 클래스");
+//		System.out.println(c1.getT());
+		
+		// 3. 자식2 제네릭 클래스
+//		Child2<String, Integer> c2 = new Child2<String, Integer>();
+//		c2.setT("자식2 제네릭 클래스");
+//		c2.setV(100);
+//		System.out.println(c2.getT());
+//		System.out.println(c2.getV());
+		
+		Parent2 p2 = new Parent2();
+		p2.<Integer>print(20);
+		p2.<Double>print(10D);
 	}
 
 }
